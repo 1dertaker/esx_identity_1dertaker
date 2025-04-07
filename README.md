@@ -2,7 +2,7 @@
 
 # 🖼️| images
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/JexYSht"  ><a href="//imgur.com/a/JexYSht">esx_identity by 1dertaker dev.</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+https://imgur.com/gallery/esx-identity-by-1dertaker-dev-JexYSht
 
 ## Requirements
 * Dependencies For Full Functionality
