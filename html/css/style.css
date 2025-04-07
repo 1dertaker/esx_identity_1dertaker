@@ -1,0 +1,352 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@300&family=Outfit&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  overflow: hidden;
+  font-family: "Fustat", sans-serif;
+  overflow-x: hidden !important;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  background: linear-gradient(246deg, white, #ff905426, #62efff26, #f600ff26) !important;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.none {
+  display: none;
+}
+
+.dialog {
+  width: 332px;
+  opacity: 0.95;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #152029;
+  border-radius: 10px;
+  box-shadow: 0 -5px 3px -3px #21303d, 0 5px 3px -3px #21303d;
+  border: none;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #58636c;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  padding-left: 0;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-align: left;
+  background-color: #152029;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(84, 97, 105, 255);
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  opacity: 1;
+  /* Firefox */
+}
+
+button {
+  display: block;
+  padding: 10px;
+  background-color: #4569c6;
+  outline: none;
+  border: 2px double rgba(40, 40, 40, 0.9);
+  color: #ffffff;
+  height: auto;
+}
+
+h1 {
+  display: block;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: rgba(15, 15, 15, 0.9);
+  color: #ffffff;
+  width: 93%;
+  text-align: center;
+}
+
+.range-wrap {
+  position: relative;
+  margin: 0 auto 3rem;
+}
+
+.range {
+  width: 100%;
+}
+
+.bubble {
+  background: rgba(15, 15, 15, 0.9);
+  color: #ffffff;
+  padding: 4px 12px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgba(15, 15, 15, 0.9);
+  color: black;
+  top: -1px;
+  left: 50%;
+}
+
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.slide {
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f000;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#nextBtn,
+#prevBtn,
+#backToStartBtn, #btnfree {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 40px !important;
+  cursor: pointer;
+  height: 50px !important;
+  padding-inline: 25px;
+  margin: 0px !important;
+  margin-inline: 3px !important;
+  box-shadow: 1px 1px 20px 2px #00000036;
+}
+
+#nextBtn:hover,
+#prevBtn:hover,
+#backToStartBtn:hover {
+  background-color: #0056b3;
+}
+
+#logo {
+  filter: invert(1);
+}
+
+.comillas {
+  position: absolute;
+  z-index: 1;
+  right: 32px;
+  top: -65px;
+}
+
+.box-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+  background: #ffffff;
+  padding: 5px 1px;
+  border-radius: 8px 35px 35px;
+  box-shadow: 1px 1px 10px 0px #dcdcdc4d;
+}
+
+.profile-img {
+  padding: 20px;
+  border-radius: 70px;
+  background-color: #2e2e2e;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-inline: 5px;
+  border: 2px solid #fff;
+}
+
+.user-date {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-inline: 10px;
+}
+
+#tag-dc {
+  font-family: fustat;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+#text-dc {
+  font-size: 13px;
+  color: #000;
+  position: relative;
+  top: -4px;
+}
+
+.box-icon {
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(45deg, #b8b8b8, #e2c3ff);
+  border-radius: 15px;
+  color: #000 !important;
+  font-size: 20px;
+}
+
+.text-comillas {
+  font-family: fustat;
+  font-size: 150px;
+  font-weight: 900;
+  color: #000 !important;
+  text-shadow: 2px 0px 0px #454545;
+}
+
+#box1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: stretch;
+}
+
+#display-mardel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-around;
+  position: relative;
+  top: -52px;
+}
+
+.form-floating-sex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  width: fit-content;
+  margin-right: 5px;
+}
+
+.radiosex {
+  width: 35px;
+}
+
+.radio-toolbar {
+  display: flex;
+}
+
+.btn-submit {
+  background: linear-gradient(45deg, #26c900, #3f9f00);
+  border: 0px;
+  width: 100%;
+  padding: 0px 30px;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid #0dce00;
+}
+
+.logo-mdp {
+  filter: invert(1);
+  width: 300px;
+  height: 100px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.progress-indicators {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.flex-cont,
+.flex-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-a {
+  color: #fff !important;
+}
+
+.line {position: absolute;width: 350px;height: 2px;background: transparent;border-bottom: 3px dashed #bbbbbb;z-index: -1;}
+
+.icon-hit {
+  margin-inline: 12px;
+  color: #5e5e5e;
+  background: #00000014;
+  padding: 8px 8px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-btns {
+  display: flex;
+  flex-direction: row;
+  margin-block: 10px;
+}
